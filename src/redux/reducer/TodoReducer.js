@@ -18,7 +18,7 @@ export const todoReducer = (state = initialState, action) => {
         ],
       };
     case "DELETE_TODO":
-      const newList = state.list.filter((elem) => elem.id != action.id);
+      const newList = state.list.filter((elem) => elem.id !== action.id);
       console.log(newList);
       return {
         ...state,
