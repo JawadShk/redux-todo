@@ -5,7 +5,7 @@ import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { addTodo, deleteTodo, removeAllTodo } from "./redux/actions/action";
 import { FaTrashAlt } from "react-icons/fa";
-import { todoReducer } from "./redux/reducer/TodoReducer";
+// import { todoReducer } from "./redux/reducer/TodoReducer";
 
 const Todo = () => {
   const [inputData, setInputData] = useState("");
