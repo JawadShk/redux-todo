@@ -1,0 +1,59 @@
+.addItems input{
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.addItems, .showItems .todo-btn{
+
+  position: relative;
+}
+.addItems .add-btn{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10px;
+  z-index: 1;
+}
+
+.showItems .todo-btn .del-btn{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-140%);
+  right: 10px;
+  z-index: 1;
+}
+
+.showItems .eachItem {
+  background-color: #7c48ff;
+  color: white;
+  padding: 8px;
+  border-radius: 5px;
+  margin: 1px;
+  
+}
+.showItems .eachItem:hover {
+  background-color: white;
+  color: red;
+  transition: all 0.3s ease;
+}
+
+.showItems .eachItem h3{
+  margin: 0;
+  font-weight: 500;
+  font-size: 20px;
+  word-wrap: break-word;
+}
+
+.btn-remove{
+  background-color: white;
+  text-transform: uppercase;
+  border-radius: 0;
+  letter-spacing: 1.3px;
+  font-weight: 500;
+}
+
+.btn-remove:hover{
+  background-color: red;
+  color: white;
+}
